@@ -4,9 +4,8 @@
 - [x] Text
 - [x] Heading
 - [x] Avatar
-- [ ] Button
-- [ ] TextInput
+- [x] Button
+- [x] TextInput
 - [ ] TextArea
 - [ ] Checkbox
-- [ ] Avatar
 - [ ] MultiStap
