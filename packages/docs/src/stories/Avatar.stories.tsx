@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/jlima004.png',
     alt: 'Jefferson Dcher',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
