@@ -8,4 +8,4 @@
 - [x] TextInput
 - [x] TextArea
 - [x] Checkbox
-- [ ] MultiStap
+- [x] MultiStap
