@@ -1,11 +1,12 @@
 import { ComponentProps, ElementRef, forwardRef } from 'react'
+import { VariantProps } from '@stitches/react'
 
 import { TextInputContainer, Prefix, Input } from './styles'
 
 export interface TextInputProps
   extends Omit<ComponentProps<typeof Input>, 'size'> {
   prefix?: string
-  size?: ComponentProps<typeof TextInputContainer>['size']
+  size?: VariantProps<typeof TextInputContainer>['size']
 }
 
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
