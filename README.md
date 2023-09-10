@@ -9,5 +9,5 @@
 - [x] TextArea
 - [x] Checkbox
 - [x] MultiStap
-- [ ] Toast
-- [ ] Tooltip
+- [x] Toast
+- [x] Tooltip
