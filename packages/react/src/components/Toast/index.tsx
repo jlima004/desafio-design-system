@@ -41,11 +41,13 @@ export function Toast({
       </RadixToast.Title>
 
       <RadixToast.Description asChild>
-        <Text size="sm">{description}</Text>
+        <Text size="sm" css={{ color: '$gray200' }}>
+          {description}
+        </Text>
       </RadixToast.Description>
 
       <Close asChild>
-        <X size={16} weight="bold" />
+        <X size={20} weight="bold" color="#A9A9B2" />
       </Close>
     </ToastContainer>
   )

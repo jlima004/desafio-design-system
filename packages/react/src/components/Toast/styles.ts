@@ -62,7 +62,7 @@ export const ToastViewport = styled(RadixToast.Viewport, {
 
 export const Close = styled(RadixToast.Close, {
   position: 'absolute',
-  top: 10,
-  right: 10,
+  top: '$4',
+  right: '$4',
   cursor: 'pointer',
 })

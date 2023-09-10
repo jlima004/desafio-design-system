@@ -11,8 +11,8 @@ export default {
   title: 'Data display/Toast',
   component: Toast,
   args: {
-    title: 'My toast title',
-    description: 'My toast description',
+    title: 'Agendamento realizado',
+    description: 'Quarta-feira, 23 de Outubro às 16h',
     duration: 6000,
     open: true,
   },
